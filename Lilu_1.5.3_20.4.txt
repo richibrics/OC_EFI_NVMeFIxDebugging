@@ -1,0 +1,927 @@
+Lilu    config: @ (DBG) version DBG-153-2021-05-03, args: disabled 0, debug 1, slow 0, decompress 1
+Lilu       dev: @ (DBG) detected 7 firmware
+Lilu       dev: @ (DBG) got MacBookPro16,3 model from /efi/platform
+Lilu       dev: @ (DBG) got Mac-E7203C0F68AA0004 board-id from /efi/platform
+Lilu    config: @ (DBG) initialising policy
+Lilu     iokit: @ (DBG) OSPrelinkKextCount equals to 5
+Lilu      mach: @ (DBG) MachInfo asKernel 1 object constructed
+Lilu      mach: @ (DBG) found kernel nouveau mach-o header address at ffffff8003600000
+Lilu      mach: @ (DBG) memory init mode - 1
+Lilu      mach: @ (DBG) looking up inner kernel in 714 commands at 0xFFFFFF8003600000
+Lilu      mach: @ (DBG) got nouveau mach-o for kernel at 0xFFFFFF8003610000
+Lilu      mach: @ (DBG) kernel has segment is __TEXT from 0xFFFFFF8003610000 to 0xFFFFFF8004010000
+Lilu      mach: @ (DBG) kernel has segment is __DATA from 0xFFFFFF8004438000 to 0xFFFFFF80046AB000
+Lilu      mach: @ (DBG) kernel has segment is __DATA_CONST from 0xFFFFFF8004024000 to 0xFFFFFF800408B000
+Lilu      mach: @ (DBG) kernel has segment is __KLDDATA from 0xFFFFFF80046AB000 to 0xFFFFFF800471D000
+Lilu      mach: @ (DBG) kernel has segment is __HIB from 0xFFFFFF8003500000 to 0xFFFFFF80035A0000
+Lilu      mach: @ (DBG) kernel has segment is __VECTORS from 0xFFFFFF800471D000 to 0xFFFFFF800471E000
+Lilu      mach: @ (DBG) kernel has segment is __KLD from 0xFFFFFF8004010000 to 0xFFFFFF8004023000
+Lilu      mach: @ (DBG) kernel has segment is __LASTDATA_CONST from 0xFFFFFF800408B000 to 0xFFFFFF800408C000
+Lilu      mach: @ (DBG) kernel has segment is __LAST from 0xFFFFFF800471E000 to 0xFFFFFF800471E000
+Lilu      mach: @ (DBG) kernel has segment is __PRELINK_TEXT from 0xFFFFFF8004023000 to 0xFFFFFF8004023000
+Lilu      mach: @ (DBG) kernel has segment is __PRELINK_INFO from 0xFFFFFF800940A000 to 0xFFFFFF8009778000
+Lilu      mach: @ (DBG) kernel has segment is __LINKINFO from 0xFFFFFF80069F0000 to 0xFFFFFF8006A34000
+Lilu      mach: @ (DBG) kernel has segment is __CTF from 0xFFFFFF8003610000 to 0xFFFFFF8003610000
+Lilu      mach: @ (DBG) kernel has segment is __LINKEDIT from 0xFFFFFF8006A7C000 to 0xFFFFFF80073BAD80
+Lilu      mach: @ (DBG) found symbol _PE_initialize_console at 0xffffff8003e751f0 (non-aslr 0xffffff8003e751f0), type f, sect 1, desc 0
+Lilu   patcher: @ (DBG) from 0xFFFFFF8003E751F0 to 0xFFFFFF800743CD00 diff 0x00000000035C7B0B argument 35C7B0B
+Lilu   patcher: @ (DBG) from 0xFFFFFF8007436F66 to 0xFFFFFF8003E751F6 diff 0xFFFFFFFFFCA3E28B argument FCA3E28B
+Lilu   patcher: @ (DBG) wrapped _PE_initialize_console
+Lilu       api: @ (DBG) got load request from NVMeFix (107)
+NVMeFix      init: @ (DBG) NVMeFix bootstrap DBG-107-2021-05-03
+NVMeFix     nvmef: @ (DBG) Registered for matching notifications
+Lilu       api: @ (DBG) got load request from WhateverGreen (149)
+Lilu       api: @ (DBG) got load request from AppleALC (160)
+Lilu       api: @ (DBG) got load request from VirtualSMC (123)
+Lilu     nvram: @ failed to get IODeviceTree:/options
+Lilu       efi: @ (DBG) successful efi call GetVariable with response 800000000000000E
+VirtualSMC     efend: @ authenticated restart support is unavailable (800000000000000E, 8)
+Lilu     nvram: @ failed to get IODeviceTree:/options
+Lilu    config: @ (DBG) PE_initialize_console 7
+Lilu       efi: @ (DBG) successful efi call GetVariable with response 00000000
+Lilu       efi: @ (DBG) successful efi call GetVariable with response 00000000
+Lilu    config: @ (DBG) PE_initialize_console 8
+Lilu    config: @ (DBG) PE_initialize_console 6
+Lilu    config: @ (DBG) PE_initialize_console 6 performing init
+Lilu       dev: @ (DBG) creating device info
+Lilu       dev: @ (DBG) found root device chosen
+Lilu       dev: @ (DBG) found root device efi
+Lilu       dev: @ (DBG) found root device cpus
+Lilu       dev: @ (DBG) found root device memory
+Lilu       dev: @ (DBG) found root device rom
+Lilu       dev: @ (DBG) found root device PCI0
+Lilu       dev: @ (DBG) found PCI root PCI0
+Lilu       dev: @ (DBG) pci bridge PCI0 is configured 0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device SRRE 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device PEG0 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device PEG1 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device PEG2 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device IPU0 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device PRRE 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device IOTR 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device XDCI 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device RP01 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device RP02 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device RP03 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device RP04 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device RP05 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device RP06 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device RP07 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device RP08 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device RP09 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device RP10 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device RP11 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device RP12 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device RP14 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       rtc: @ (DBG) successful rtc read client obtain
+Lilu       rtc: @ (DBG) successful rtc read client obtain
+Lilu       dev: @ (DBG) found pci device RP15 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device RP16 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device RP17 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device RP18 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device RP19 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device RP20 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device RP21 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device RP22 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device RP23 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device RP24 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device SAT0 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device GPI0 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device SPI0 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device SPI1 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device SPI2 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device I2C2 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device I2C3 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device I2C4 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device I2C5 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device UA00 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device UA01 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device UA02 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device PUFS 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device PDRC 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id has 8086 value
+Lilu     iokit: @ (DBG) getOSData class-code has 60000 value
+Lilu       dev: @ (DBG) found pci device pci8086,9b61 0x8086 0x60000
+Lilu     iokit: @ (DBG) getOSData vendor-id has 8086 value
+Lilu     iokit: @ (DBG) getOSData class-code has 30000 value
+Lilu       dev: @ (DBG) found pci device GFX0 0x8086 0x30000
+Lilu       dev: @ (DBG) found IGPU device GFX0
+Lilu     iokit: @ (DBG) getOSData vendor-id has 8086 value
+Lilu     iokit: @ (DBG) getOSData class-code has 118000 value
+Lilu       dev: @ (DBG) found pci device B0D4 0x8086 0x118000
+Lilu     iokit: @ (DBG) getOSData vendor-id has 8086 value
+Lilu     iokit: @ (DBG) getOSData class-code has 88000 value
+Lilu       dev: @ (DBG) found pci device pci8086,1911 0x8086 0x88000
+Lilu     iokit: @ (DBG) getOSData vendor-id has 8086 value
+Lilu     iokit: @ (DBG) getOSData class-code has 118000 value
+Lilu       dev: @ (DBG) found pci device pci8086,2f9 0x8086 0x118000
+Lilu     iokit: @ (DBG) getOSData vendor-id has 8086 value
+Lilu     iokit: @ (DBG) getOSData class-code has 70000 value
+Lilu       dev: @ (DBG) found pci device ISHD 0x8086 0x70000
+Lilu     iokit: @ (DBG) getOSData vendor-id has 8086 value
+Lilu     iokit: @ (DBG) getOSData class-code has C0330 value
+Lilu       dev: @ (DBG) found pci device XHC 0x8086 0xc0330
+Lilu     iokit: @ (DBG) getOSData vendor-id has 8086 value
+Lilu     iokit: @ (DBG) getOSData class-code has 50000 value
+Lilu       dev: @ (DBG) found pci device pci8086,2ef 0x8086 0x50000
+Lilu     iokit: @ (DBG) getOSData vendor-id has 8086 value
+Lilu     iokit: @ (DBG) getOSData class-code has 28000 value
+Lilu       dev: @ (DBG) found pci device CNVW 0x8086 0x28000
+Lilu       dev: @ (DBG) creating device info
+Lilu       dev: @ (DBG) found root device chosen
+Lilu       dev: @ (DBG) found root device efi
+Lilu       dev: @ (DBG) found root device cpus
+Lilu       dev: @ (DBG) found root device memory
+Lilu       dev: @ (DBG) found root device rom
+Lilu       dev: @ (DBG) found root device PCI0
+Lilu       dev: @ (DBG) found PCI root PCI0
+Lilu       dev: @ (DBG) pci bridge PCI0 is configured 0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device SRRE 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device PEG0 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device PEG1 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device PEG2 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device IPU0 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device PRRE 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device IOTR 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device XDCI 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device RP01 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device RP02 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device RP03 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device RP04 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device RP05 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device RP06 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device RP07 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device RP08 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device RP09 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device RP10 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device RP11 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device RP12 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device RP14 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device RP15 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device RP16 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device RP17 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device RP18 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device RP19 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device RP20 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device RP21 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device RP22 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device RP23 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device RP24 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device SAT0 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device GPI0 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device SPI0 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device SPI1 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device SPI2 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device I2C2 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device I2C3 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device I2C4 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device I2C5 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu     iokit: @ (DBG) getOSData vendor-id has 8086 value
+Lilu     iokit: @ (DBG) getOSData class-code has C8000 value
+Lilu       dev: @ (DBG) found pci device I2C0 0x8086 0xc8000
+Lilu     iokit: @ (DBG) getOSData vendor-id has 8086 value
+Lilu     iokit: @ (DBG) getOSData class-code has C8000 value
+Lilu       dev: @ (DBG) found pci device I2C1 0x8086 0xc8000
+Lilu     iokit: @ (DBG) getOSData vendor-id has 8086 value
+Lilu     iokit: @ (DBG) getOSData class-code has 78000 value
+Lilu       dev: @ (DBG) found pci device HECI 0x8086 0x78000
+Lilu       dev: @ (DBG) found IMEI device HECI
+Lilu     iokit: @ (DBG) getOSData vendor-id has 8086 value
+Lilu     iokit: @ (DBG) getOSData class-code has 60400 value
+Lilu       dev: @ (DBG) found pci device RP13 0x8086 0x60400
+Lilu       dev: @ (DBG) found pci bridge RP13
+Lilu       dev: @ (DBG) pci bridge RP13 is configured 0
+Lilu       dev: @ (DBG) found PXSX on pci bridge
+Lilu     iokit: @ (DBG) getOSData vendor-id has 144D value
+Lilu     iokit: @ (DBG) getOSData class-code has 10802 value
+Lilu       dev: @ (DBG) found IONVMeController on pci bridge
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu       dev: @ (DBG) found IONVMeBlockStorageDevice on pci bridge
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu       dev: @ (DBG) found SAMSUNG MZALQ512HALU-000L2 Media on pci bridge
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData vendor-id has 8086 value
+Lilu     iokit: @ (DBG) getOSData class-code has 60100 value
+Lilu       dev: @ (DBG) found pci device LPCB 0x8086 0x60100
+Lilu     iokit: @ (DBG) getOSData vendor-id has 8086 value
+Lilu     iokit: @ (DBG) getOSData class-code has 40100 value
+Lilu       dev: @ (DBG) found pci device HDAS 0x8086 0x40100
+Lilu       dev: @ (DBG) found HDEF device HDAS
+Lilu     iokit: @ (DBG) getOSData vendor-id has 8086 value
+Lilu     iokit: @ (DBG) getOSData class-code has C0500 value
+Lilu       dev: @ (DBG) found pci device SBUS 0x8086 0xc0500
+Lilu     iokit: @ (DBG) getOSData vendor-id has 8086 value
+Lilu     iokit: @ (DBG) getOSData class-code has C8000 value
+Lilu       dev: @ (DBG) found pci device pci8086,2a4 0x8086 0xc8000
+Lilu       dev: @ (DBG) found root device URSC
+Lilu       dev: @ (DBG) found root device ACAD
+Lilu       dev: @ (DBG) found root device BAT1
+Lilu       dev: @ (DBG) found root device LID
+Lilu       dev: @ (DBG) found root device WMTF
+Lilu       dev: @ (DBG) found root device PAGD
+Lilu       dev: @ (DBG) found root device WFDE
+Lilu       dev: @ (DBG) found root device WFTE
+Lilu       dev: @ (DBG) found root device PWRB
+Lilu       dev: @ (DBG) found root device LSID
+Lilu       dev: @ (DBG) found root device WMI2
+Lilu       dev: @ (DBG) found root device WMI4
+Lilu       dev: @ (DBG) found root device WMIP
+Lilu       dev: @ (DBG) found root device IETM
+Lilu       dev: @ (DBG) found root device PTMD
+Lilu       dev: @ (DBG) found root device UBTC
+Lilu       dev: @ (DBG) found root device EC
+Lilu       dev: @ (DBG) found root device WMI1
+Lilu     iokit: @ (DBG) getOSData apple-layout-id was not found
+Lilu     iokit: @ (DBG) getOSData AAPL,ig-platform-id has 3EA50009 value
+Lilu       dev: @ (DBG) found property frame id override to 1051000841
+Lilu       dev: @ (DBG) processing 0 external GPUs to disable - selective
+Lilu     iokit: @ (DBG) compatible property starts with pci17aa,3806 and is 47 bytes
+Lilu     iokit: @ (DBG) fixing compatible to have IGPU
+Lilu       dev: @ (DBG) pci device IGPU is in service plane 0
+Lilu     iokit: @ (DBG) read pci config discovered IGPU space to be 0x00001000
+Lilu     iokit: @ (DBG) compatible property starts with pci17aa,3806 and is 46 bytes
+Lilu     iokit: @ (DBG) fixing compatible to have IMEI
+Lilu      mach: @ (DBG) found symbol _vinfo at 0xffffff80044d29a0 (non-aslr 0xffffff80044d29a0), type f, sect 10, desc 0
+Lilu     iokit: @ (DBG) compatible property starts with pci17aa,3806 and is 46 bytes
+Lilu     iokit: @ (DBG) fixing compatible to have HDEF
+Lilu      mach: @ (DBG) found symbol _kernel_trap at 0xffffff80037c4980 (non-aslr 0xffffff80037c4980), type f, sect 1, desc 0
+Lilu   patcher: @ (DBG) from 0xFFFFFF80037C4980 to 0xFFFFFF800841B060 diff 0x0000000004C566DB argument 4C566DB
+Lilu   patcher: @ (DBG) from 0xFFFFFF8007436F85 to 0xFFFFFF80037C4991 diff 0xFFFFFFFFFC38DA07 argument FC38DA07
+Lilu   patcher: @ (DBG) wrapped _kernel_trap
+Lilu      mach: @ (DBG) MachInfo asKernel 0 object constructed
+Lilu   patcher: @ (DBG) loaded kinfo com.apple.iokit.IONVMeFamily at 1 index
+Lilu      mach: @ (DBG) found symbol _gLoadedKextSummaries at 0xffffff8004649f90 (non-aslr 0xffffff8004649f90), type f, sect 10, desc 0
+Lilu   patcher: @ (DBG) _gLoadedKextSummaries address 0xffffff8004649f90
+Lilu      mach: @ (DBG) found symbol __ZN6OSKext25updateLoadedKextSummariesEv at 0xffffff8003d66400 (non-aslr 0xffffff8003d66400), type f, sect 1, desc 0
+Lilu   patcher: @ (DBG) kext summaries (1) address FFFFFF8003D66400 value 56415741E5894855
+Lilu   patcher: @ (DBG) from 0xFFFFFF8003D66400 to 0xFFFFFF8007433580 diff 0x00000000036CD17B argument 36CD17B
+Lilu   patcher: @ (DBG) from 0xFFFFFF8007436FA4 to 0xFFFFFF8003D66411 diff 0xFFFFFFFFFC92F468 argument FC92F468
+Lilu      mach: @ (DBG) MachInfo asKernel 0 object constructed
+Lilu   patcher: @ (DBG) loaded kinfo com.apple.iokit.IOGraphicsFamily at 2 index
+Lilu      mach: @ (DBG) MachInfo asKernel 0 object constructed
+Lilu   patcher: @ (DBG) loaded kinfo com.apple.driver.AppleBacklight at 3 index
+Lilu      mach: @ (DBG) MachInfo asKernel 0 object constructed
+Lilu   patcher: @ (DBG) loaded kinfo com.apple.driver.AppleIntelKBLGraphics at 4 index
+Lilu      mach: @ (DBG) MachInfo asKernel 0 object constructed
+Lilu   patcher: @ (DBG) loaded kinfo com.apple.driver.AppleIntelCFLGraphicsFramebuffer at 5 index
+Lilu      mach: @ (DBG) MachInfo asKernel 0 object constructed
+Lilu   patcher: @ (DBG) loaded kinfo com.apple.driver.AppleIntelKBLGraphicsFramebuffer at 6 index
+Lilu      mach: @ (DBG) MachInfo asKernel 0 object constructed
+Lilu   patcher: @ (DBG) loaded kinfo com.apple.kext.AMD9500Controller at 7 index
+Lilu      mach: @ (DBG) MachInfo asKernel 0 object constructed
+Lilu   patcher: @ (DBG) loaded kinfo com.apple.driver.AppleHDA at 8 index
+Lilu      mach: @ (DBG) MachInfo asKernel 0 object constructed
+Lilu   patcher: @ (DBG) loaded kinfo com.apple.driver.AppleHDAController at 9 index
+Lilu      mach: @ (DBG) MachInfo asKernel 0 object constructed
+Lilu   patcher: @ (DBG) loaded kinfo com.apple.driver.AppleGFXHDA at 10 index
+Lilu      mach: @ (DBG) MachInfo asKernel 0 object constructed
+Lilu   patcher: @ (DBG) loaded kinfo com.apple.iokit.IOHDAFamily at 11 index
+Lilu      mach: @ (DBG) MachInfo asKernel 0 object constructed
+Lilu   patcher: @ (DBG) loaded kinfo com.apple.driver.AppleSMC at 12 index
+Lilu      user: @ disabling user patcher on request!
+Lilu   patcher: @ (DBG) processing already loaded kexts by iterating over 80 summaries
+Lilu   patcher: @ (DBG) discovered the right kext com.apple.driver.AppleSMC at 0xFFFFFF8004D4E000, invoking handler
+Lilu      mach: @ (DBG) got nouveau mach-o for com.apple.driver.AppleSMC at 0xFFFFFF8004D4E000
+Lilu      mach: @ (DBG) com.apple.driver.AppleSMC has segment is __TEXT from 0xFFFFFF8004D4E000 to 0xFFFFFF8004D67000
+Lilu      mach: @ (DBG) com.apple.driver.AppleSMC has segment is __DATA from 0xFFFFFF8004D67000 to 0xFFFFFF8004D6A000
+Lilu      mach: @ (DBG) com.apple.driver.AppleSMC has segment is __LINKEDIT from 0xFFFFFF8006A7C000 to 0xFFFFFF80073BAD80
+Lilu      mach: @ (DBG) activating slots for com.apple.driver.AppleSMC in 0xFFFFFF8004D4E4A8
+Lilu      mach: @ (DBG) getRunningPosition 0xffffff8004d4e000 of memory 114688 size
+Lilu      mach: @ (DBG) found symbol __ZN8AppleSMC20callPlatformFunctionEPK8OSSymbolbPvS3_S3_S3_ at 0xffffff8004d5b284 (non-aslr 0xffffff8004d5b284), type f, sect 1, desc 0
+Lilu   patcher: @ (DBG) from 0xFFFFFF8004D5B284 to 0xFFFFFF800841A970 diff 0x00000000036BF6E7 argument 36BF6E7
+Lilu   patcher: @ (DBG) from 0xFFFFFF8007436FB8 to 0xFFFFFF8004D5B28A diff 0xFFFFFFFFFD9242CD argument FD9242CD
+Lilu   patcher: @ (DBG) wrapped __ZN8AppleSMC20callPlatformFunctionEPK8OSSymbolbPvS3_S3_S3_
+VirtualSMC    kstore: @ key [REV ] not found for info
+VirtualSMC    kstore: @ key [MPRO] not found for info
+Lilu       dev: @ (DBG) found pci device UA00 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+VirtualSMC    kstore: @ key [MPRD] not found for info
+Lilu   patcher: @ (DBG) invoked at kext loading/unloading
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device UA01 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device UA02 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device PUFS 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData class-code was not found
+Lilu       dev: @ (DBG) found pci device PDRC 0x0 0x0
+Lilu     iokit: @ (DBG) getOSData vendor-id has 8086 value
+Lilu     iokit: @ (DBG) getOSData class-code has 60000 value
+Lilu       dev: @ (DBG) found pci device pci8086,9b61 0x8086 0x60000
+Lilu     iokit: @ (DBG) getOSData vendor-id has 8086 value
+Lilu     iokit: @ (DBG) getOSData class-code has 30000 value
+Lilu       dev: @ (DBG) found pci device IGPU 0x8086 0x30000
+Lilu       dev: @ (DBG) found IGPU device IGPU
+Lilu     iokit: @ (DBG) getOSData vendor-id has 8086 value
+Lilu     iokit: @ (DBG) getOSData class-code has 118000 value
+Lilu       dev: @ (DBG) found pci device B0D4 0x8086 0x118000
+Lilu     iokit: @ (DBG) getOSData vendor-id has 8086 value
+Lilu     iokit: @ (DBG) getOSData class-code has 88000 value
+Lilu       dev: @ (DBG) found pci device pci8086,1911 0x8086 0x88000
+Lilu     iokit: @ (DBG) getOSData vendor-id has 8086 value
+Lilu     iokit: @ (DBG) getOSData class-code has 118000 value
+Lilu       dev: @ (DBG) found pci device pci8086,2f9 0x8086 0x118000
+Lilu     iokit: @ (DBG) getOSData vendor-id has 8086 value
+Lilu     iokit: @ (DBG) getOSData class-code has 70000 value
+Lilu       dev: @ (DBG) found pci device ISHD 0x8086 0x70000
+Lilu     iokit: @ (DBG) getOSData vendor-id has 8086 value
+Lilu     iokit: @ (DBG) getOSData class-code has C0330 value
+Lilu       dev: @ (DBG) found pci device XHC 0x8086 0xc0330
+Lilu     iokit: @ (DBG) getOSData vendor-id has 8086 value
+Lilu     iokit: @ (DBG) getOSData class-code has 50000 value
+Lilu       dev: @ (DBG) found pci device pci8086,2ef 0x8086 0x50000
+Lilu     iokit: @ (DBG) getOSData vendor-id has 8086 value
+Lilu     iokit: @ (DBG) getOSData class-code has 28000 value
+Lilu       dev: @ (DBG) found pci device CNVW 0x8086 0x28000
+Lilu     iokit: @ (DBG) getOSData vendor-id has 8086 value
+Lilu     iokit: @ (DBG) getOSData class-code has C8000 value
+Lilu       dev: @ (DBG) found pci device I2C0 0x8086 0xc8000
+Lilu     iokit: @ (DBG) getOSData vendor-id has 8086 value
+Lilu     iokit: @ (DBG) getOSData class-code has C8000 value
+Lilu       dev: @ (DBG) found pci device I2C1 0x8086 0xc8000
+Lilu     iokit: @ (DBG) getOSData vendor-id has 8086 value
+Lilu     iokit: @ (DBG) getOSData class-code has 78000 value
+Lilu       dev: @ (DBG) found pci device IMEI 0x8086 0x78000
+Lilu       dev: @ (DBG) found IMEI device IMEI
+Lilu     iokit: @ (DBG) getOSData vendor-id has 8086 value
+Lilu     iokit: @ (DBG) getOSData class-code has 60400 value
+Lilu       dev: @ (DBG) found pci device RP13 0x8086 0x60400
+Lilu       dev: @ (DBG) found pci bridge RP13
+Lilu       dev: @ (DBG) pci bridge RP13 is configured 0
+Lilu       dev: @ (DBG) found PXSX on pci bridge
+Lilu     iokit: @ (DBG) getOSData vendor-id has 144D value
+Lilu     iokit: @ (DBG) getOSData class-code has 10802 value
+Lilu       dev: @ (DBG) found IONVMeController on pci bridge
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu       dev: @ (DBG) found IONVMeBlockStorageDevice on pci bridge
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu       dev: @ (DBG) found SAMSUNG MZALQ512HALU-000L2 Media on pci bridge
+Lilu     iokit: @ (DBG) getOSData vendor-id was not found
+Lilu     iokit: @ (DBG) getOSData vendor-id has 8086 value
+Lilu     iokit: @ (DBG) getOSData class-code has 60100 value
+Lilu       dev: @ (DBG) found pci device LPCB 0x8086 0x60100
+Lilu     iokit: @ (DBG) getOSData vendor-id has 8086 value
+Lilu     iokit: @ (DBG) getOSData class-code has 40100 value
+Lilu       dev: @ (DBG) found pci device HDEF 0x8086 0x40100
+Lilu       dev: @ (DBG) found HDEF device HDEF
+Lilu     iokit: @ (DBG) getOSData vendor-id has 8086 value
+Lilu     iokit: @ (DBG) getOSData class-code has C0500 value
+Lilu       dev: @ (DBG) found pci device SBUS 0x8086 0xc0500
+Lilu     iokit: @ (DBG) getOSData vendor-id has 8086 value
+Lilu     iokit: @ (DBG) getOSData class-code has C8000 value
+Lilu       dev: @ (DBG) found pci device pci8086,2a4 0x8086 0xc8000
+Lilu       dev: @ (DBG) found root device URSC
+Lilu       dev: @ (DBG) found root device ACAD
+Lilu       dev: @ (DBG) found root device BAT1
+Lilu       dev: @ (DBG) found root device LID
+Lilu       dev: @ (DBG) found root device WMTF
+Lilu       dev: @ (DBG) found root device PAGD
+Lilu       dev: @ (DBG) found root device WFDE
+Lilu       dev: @ (DBG) found root device WFTE
+Lilu       dev: @ (DBG) found root device PWRB
+Lilu       dev: @ (DBG) found root device LSID
+Lilu       dev: @ (DBG) found root device WMI2
+Lilu       dev: @ (DBG) found root device WMI4
+Lilu       dev: @ (DBG) found root device WMIP
+Lilu       dev: @ (DBG) found root device IETM
+Lilu       dev: @ (DBG) found root device PTMD
+Lilu       dev: @ (DBG) found root device UBTC
+Lilu       dev: @ (DBG) found root device EC
+Lilu       dev: @ (DBG) found root device WMI1
+Lilu       dev: @ (DBG) found root device AppleEFINVRAM
+Lilu     iokit: @ (DBG) getOSData apple-layout-id was not found
+Lilu     iokit: @ (DBG) getOSData AAPL,ig-platform-id has 3EA50009 value
+Lilu       dev: @ (DBG) found property frame id override to 1051000841
+VirtualSMC    kstore: @ key [AC-N] not found for reading
+Lilu   patcher: @ (DBG) invoked at kext loading/unloading
+Lilu   patcher: @ (DBG) invoked at kext loading/unloading
+Lilu   patcher: @ (DBG) discovered the right kext com.apple.iokit.IONVMeFamily at 0xFFFFFF8005EA0000, invoking handler
+Lilu      mach: @ (DBG) got nouveau mach-o for com.apple.iokit.IONVMeFamily at 0xFFFFFF8005EA0000
+Lilu      mach: @ (DBG) com.apple.iokit.IONVMeFamily has segment is __TEXT from 0xFFFFFF8005EA0000 to 0xFFFFFF8005ECA000
+Lilu      mach: @ (DBG) com.apple.iokit.IONVMeFamily has segment is __DATA from 0xFFFFFF8005ECA000 to 0xFFFFFF8005ED2000
+Lilu      mach: @ (DBG) com.apple.iokit.IONVMeFamily has segment is __LINKEDIT from 0xFFFFFF8006A7C000 to 0xFFFFFF80073BAD80
+Lilu      mach: @ (DBG) activating slots for com.apple.iokit.IONVMeFamily in 0xFFFFFF8005EA0458
+Lilu      mach: @ (DBG) getRunningPosition 0xffffff8005ea0000 of memory 204800 size
+NVMeFix     nvmef: @ (DBG) processKext com.apple.iokit.IONVMeFamily
+Lilu      mach: @ (DBG) found symbol __ZN16IONVMeController20IssueIdentifyCommandEP18IOMemoryDescriptorjb at 0xffffff8005eaadee (non-aslr 0xffffff8005eaadee), type f, sect 1, desc 0
+Lilu      mach: @ (DBG) found symbol __ZN16IONVMeController22ProcessSyncNVMeRequestEP16AppleNVMeRequest at 0xffffff8005eaafde (non-aslr 0xffffff8005eaafde), type f, sect 1, desc 0
+Lilu      mach: @ (DBG) found symbol __ZN16IONVMeController10GetRequestEj at 0xffffff8005eaeea8 (non-aslr 0xffffff8005eaeea8), type f, sect 1, desc 0
+Lilu      mach: @ (DBG) found symbol __ZN16AppleNVMeRequest23BuildCommandGetFeaturesEh at 0xffffff8005eb8044 (non-aslr 0xffffff8005eb8044), type f, sect 1, desc 0
+Lilu      mach: @ (DBG) found symbol __ZN16AppleNVMeRequest29BuildCommandSetFeaturesCommonEh at 0xffffff8005eb8078 (non-aslr 0xffffff8005eb8078), type f, sect 1, desc 0
+Lilu      mach: @ (DBG) found symbol __ZN16IONVMeController13ReturnRequestEP16AppleNVMeRequest at 0xffffff8005eaf074 (non-aslr 0xffffff8005eaf074), type f, sect 1, desc 0
+Lilu      mach: @ (DBG) found symbol __ZN16AppleNVMeRequest9GetStatusEv at 0xffffff8005eb6a08 (non-aslr 0xffffff8005eb6a08), type f, sect 1, desc 0
+Lilu      mach: @ (DBG) found symbol __ZN16AppleNVMeRequest9GetOpcodeEv at 0xffffff8005eb69ee (non-aslr 0xffffff8005eb69ee), type f, sect 1, desc 0
+Lilu      mach: @ (DBG) found symbol __ZN16AppleNVMeRequest20GenerateIOVMSegmentsEyy at 0xffffff8005eb71e0 (non-aslr 0xffffff8005eb71e0), type f, sect 1, desc 0
+Lilu   patcher: @ (DBG) invoked at kext loading/unloading
+VirtualSMC    kstore: @ key [B0IV] not found for info
+VirtualSMC    kstore: @ key [BMSN] not found for info
+VirtualSMC    kstore: @ key [BSSC] not found for info
+VirtualSMC    kstore: @ key [BSSA] not found for info
+VirtualSMC    kstore: @ key [B0OS] not found for info
+VirtualSMC    kstore: @ key [B0AT] not found for info
+VirtualSMC    kstore: @ key [B0CU] not found for info
+VirtualSMC    kstore: @ key [B0TE] not found for info
+VirtualSMC    kstore: @ key [B0RC] not found for info
+VirtualSMC    kstore: @ key [BMDN] not found for info
+VirtualSMC    kstore: @ key [B0DC] not found for info
+VirtualSMC    kstore: @ key [BDVT] not found for info
+VirtualSMC    kstore: @ key [BNCB] not found for info
+VirtualSMC    kstore: @ key [BC4V] not found for info
+VirtualSMC    kstore: @ key [BC3V] not found for info
+VirtualSMC    kstore: @ key [BC2V] not found for info
+VirtualSMC    kstore: @ key [UPOF] not found for info
+VirtualSMC    kstore: @ key [UB0C] not found for writing
+VirtualSMC    kstore: @ key [BFUE] not found for info
+Lilu   patcher: @ (DBG) invoked at kext loading/unloading
+Lilu   patcher: @ (DBG) invoked at kext loading/unloading
+Lilu   patcher: @ (DBG) invoked at kext loading/unloading
+Lilu   patcher: @ (DBG) invoked at kext loading/unloading
+Lilu   patcher: @ (DBG) invoked at kext loading/unloading
+Lilu   patcher: @ (DBG) invoked at kext loading/unloading
+Lilu   patcher: @ (DBG) invoked at kext loading/unloading
+Lilu   patcher: @ (DBG) invoked at kext loading/unloading
+Lilu   patcher: @ (DBG) invoked at kext loading/unloading
+Lilu   patcher: @ (DBG) invoked at kext loading/unloading
+NVMeFix     nvmef: @ (DBG) matchingNotificationHandler for IOMediaBSDClient
+Lilu   patcher: @ (DBG) invoked at kext loading/unloading
+NVMeFix     nvmef: @ (DBG) matchingNotificationHandler for IOMediaBSDClient
+NVMeFix     nvmef: @ (DBG) matchingNotificationHandler for IOMediaBSDClient
+NVMeFix     nvmef: @ (DBG) matchingNotificationHandler for IOMediaBSDClient
+NVMeFix     nvmef: @ (DBG) matchingNotificationHandler for IOMediaBSDClient
+Lilu      mach: @ (DBG) found symbol __ZN16IONVMeController22FilterInterruptRequestEP28IOFilterInterruptEventSource at 0xffffff8005ead3b8 (non-aslr 0xffffff8005ead3b8), type f, sect 1, desc 0
+NVMeFix    disasm: @ (DBG) Offset 0xac for result
+NVMeFix    disasm: @ (DBG) Offset 0x10a for command
+NVMeFix    disasm: @ (DBG) Offset 0xc0 for prpDescriptor
+NVMeFix    disasm: @ (DBG) Failed to find ANS2MSIWorkaround
+NVMeFix     nvmef: @ (DBG) matchingNotificationHandler for AppleAPFSMediaBSDClient
+NVMeFix     nvmef: @ (DBG) matchingNotificationHandler for AppleAPFSVolumeBSDClient
+Lilu      mach: @ (DBG) found symbol __ZTV16IONVMeController at 0xffffff8005ece640 (non-aslr 0xffffff8005ece640), type f, sect 7, desc 0
+NVMeFix     nvmef: @ (DBG) handleControllers for 1 controllers
+NVMeFix     iokit: @ (DBG) getOSData vendor-id has 144D value
+NVMeFix     nvmef: @ (DBG) Ignoring ANS2 workaround patch on newer system
+NVMeFix     iokit: @ (DBG) getOSData vendor-id has 144D value
+NVMeFix     iokit: @ (DBG) getOSData device-id has A809 value
+NVMeFix    quirks: @ (DBG) Reading OEM info from IODT
+NVMeFix    quirks: @ (DBG) Failed to find IODeviceTree:/efi/platform OEMProduct
+NVMeFix    quirks: @ (DBG) Failed to find IODeviceTree:/efi/platform OEMVendor
+NVMeFix    quirks: @ (DBG) Failed to find IODeviceTree:/efi/platform OEMBoard
+NVMeFix    quirks: @ (DBG) Reading OEM info from NVRAM
+Lilu     nvram: @ (DBG) read oem-product is missing
+NVMeFix    quirks: @ (DBG) Failed to find LiluVendorGuid:oem-product
+Lilu     nvram: @ (DBG) read oem-vendor is missing
+NVMeFix    quirks: @ (DBG) Failed to find LiluVendorGuid:oem-vendor
+Lilu     nvram: @ (DBG) read oem-board is missing
+NVMeFix    quirks: @ (DBG) Failed to find LiluVendorGuid:oem-board
+NVMeFix     nvmef: @ (DBG) Property ps-max-latency-us not found for parent service
+NVMeFix     nvmef: @ (DBG) Identified model SAMSUNG MZALQ512HALU-000L2              (vid 0x144d)
+NVMeFix      apst: @ (DBG) APST status 0
+NVMeFix      apst: @ (DBG) Configuring APST
+NVMeFix      apst: @ (DBG) Set entry 3 to 0x1f420
+NVMeFix      apst: @ (DBG) Set entry 2 to 0x4718
+NVMeFix      apst: @ (DBG) Set entry 1 to 0x4718
+NVMeFix      apst: @ (DBG) Set entry 0 to 0x4718
+NVMeFix      apst: @ (DBG) APST enabled: max PS = 4, max round-trip latency = 10000us
+
+NVMeFix      apst: @ (DBG) APST status 1
+NVMeFix      apst: @ (DBG) entry 4 : 0x0
+NVMeFix      apst: @ (DBG) entry 3 : 0x1f420
+NVMeFix      apst: @ (DBG) entry 2 : 0x4718
+NVMeFix      apst: @ (DBG) entry 1 : 0x4718
+NVMeFix      apst: @ (DBG) entry 0 : 0x4718
+NVMeFix        pm: @ (DBG) Registering power change interest
+VirtualSMC    kstore: @ key [B0RS] not found for info
+VirtualSMC    kstore: @ key [PDTR] not found for info
+VirtualSMC    kstore: @ key [PSTR] not found for info
+VirtualSMC    kstore: @ key [CHGI] not found for info
+VirtualSMC    kstore: @ key [BMDA] not found for info
+VirtualSMC    kstore: @ key [BMDT] not found for info
+VirtualSMC    kstore: @ key [BAAC] not found for info
+VirtualSMC    kstore: @ key [BACC] not found for info
+VirtualSMC    kstore: @ key [BCCA] not found for info
+VirtualSMC    kstore: @ key [B0SS] not found for info
+VirtualSMC    kstore: @ key [BRSS] not found for info
+VirtualSMC    kstore: @ key [B0CI] not found for info
+VirtualSMC    kstore: @ key [B0CJ] not found for info
+VirtualSMC    kstore: @ key [BISS] not found for info
+VirtualSMC    kstore: @ key [BCST] not found for info
+VirtualSMC    kstore: @ key [B0CM] not found for info
+VirtualSMC    kstore: @ key [B0HM] not found for info
+VirtualSMC    kstore: @ key [BR0C] not found for info
+VirtualSMC    kstore: @ key [B0FG] not found for info
+VirtualSMC    kstore: @ key [BR0W] not found for info
+VirtualSMC    kstore: @ key [BR00] not found for info
+VirtualSMC    kstore: @ key [BR01] not found for info
+VirtualSMC    kstore: @ key [BR02] not found for info
+VirtualSMC    kstore: @ key [BR03] not found for info
+VirtualSMC    kstore: @ key [BR04] not found for info
+VirtualSMC    kstore: @ key [BR05] not found for info
+VirtualSMC    kstore: @ key [BR06] not found for info
+VirtualSMC    kstore: @ key [BR07] not found for info
+VirtualSMC    kstore: @ key [BR08] not found for info
+VirtualSMC    kstore: @ key [BR09] not found for info
+VirtualSMC    kstore: @ key [BR10] not found for info
+VirtualSMC    kstore: @ key [BR11] not found for info
+VirtualSMC    kstore: @ key [BR12] not found for info
+VirtualSMC    kstore: @ key [BR13] not found for info
+VirtualSMC    kstore: @ key [BR14] not found for info
+VirtualSMC    kstore: @ key [GGRC] not found for info
+VirtualSMC    kstore: @ key [B0S1] not found for info
+VirtualSMC    kstore: @ key [BMSC] not found for info
+VirtualSMC    kstore: @ key [BNSC] not found for info
+VirtualSMC    kstore: @ key [B0ID] not found for info
+VirtualSMC    kstore: @ key [BLRD] not found for info
+VirtualSMC    kstore: @ key [BLRC] not found for info
+VirtualSMC    kstore: @ key [BLRF] not found for info
+VirtualSMC    kstore: @ key [BLRH] not found for info
+VirtualSMC    kstore: @ key [BLRS] not found for info
+Lilu   patcher: @ (DBG) invoked at kext loading/unloading
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF800670A000 and its name is com.apple.kec.Libm
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8006936000 and its name is com.apple.kec.corecrypto
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF80069D2000 and its name is com.apple.kec.pthread
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF80069E9000 and its name is com.apple.driver.watchdog
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8005C3A000 and its name is com.apple.iokit.IOACPIFamily
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF800615F000 and its name is com.apple.iokit.IOPCIFamily
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8004D4E000 and its name is com.apple.driver.AppleSMC
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF800472B000 and its name is com.apple.driver.AppleACPIPlatform
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF800625A000 and its name is com.apple.driver.IOSlaveProcessor
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8004D33000 and its name is com.apple.driver.AppleSEPManager
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8004A2E000 and its name is com.apple.driver.AppleBusPowerController
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8004E9E000 and its name is com.apple.driver.usb.AppleUSBCommon
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8006577000 and its name is com.apple.driver.AppleUSBHostMergeProperties
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF800647C000 and its name is com.apple.iokit.IOUSBHostFamily
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF80066F4000 and its name is com.apple.driver.KernelRelayHost
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8004AA3000 and its name is com.apple.driver.AppleCredentialManager
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8004B11000 and its name is com.apple.driver.AppleEffaceableStorage
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8004B1B000 and its name is com.apple.driver.AppleFDEKeyStore
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF800503E000 and its name is com.apple.kext.CoreTrust
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8004CB8000 and its name is com.apple.driver.AppleMobileFileIntegrity
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF800619B000 and its name is com.apple.iokit.IOSCSIArchitectureModelFamily
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8006262000 and its name is com.apple.iokit.IOStorageFamily
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF80061C0000 and its name is com.apple.iokit.IOSCSIBlockCommandsDevice
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF80066D0000 and its name is com.apple.iokit.IOUSBMassStorageDriver
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8004DAA000 and its name is com.apple.driver.AppleUSBTDM
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8004C02000 and its name is com.apple.driver.AppleKeyStore
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8004D6F000 and its name is com.apple.driver.AppleSSE
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8004F65000 and its name is com.apple.iokit.CoreAnalyticsFamily
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8004CB4000 and its name is com.apple.kext.AppleMatch
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF800673C000 and its name is com.apple.security.sandbox
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8006733000 and its name is com.apple.security.quarantine
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8005046000 and its name is com.apple.iokit.EndpointSecurity
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8005D95000 and its name is com.apple.iokit.IOBluetoothPacketLogger
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8006196000 and its name is com.apple.iokit.IOReportFamily
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8005CA7000 and its name is com.apple.iokit.IOBluetoothFamily
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8005DD1000 and its name is com.apple.driver.DiskImages
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8005E9E000 and its name is com.apple.iokit.IOKitRegistryCompatibility
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8005ED2000 and its name is com.apple.iokit.IONetworkingFamily
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF80063AC000 and its name is com.apple.iokit.IOTimeSyncFamily
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF800742C000 and its name is as.vit9696.Lilu
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF80074B3000 and its name is org.acidanthera.NVMeFix
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF80074CA000 and its name is as.vit9696.WhateverGreen
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF800842C000 and its name is as.vit9696.AppleALC
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8008412000 and its name is as.vit9696.VirtualSMC
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8006219000 and its name is com.apple.iokit.IOSMBusFamily
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF80085AB000 and its name is ru.usrsse2.SMCBatteryManager
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8005E0E000 and its name is com.apple.iokit.IOHIDFamily
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF80085F3000 and its name is as.acidanthera.BrightnessKeys
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8008616000 and its name is com.alexandred.VoodooI2CServices
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF80085BE000 and its name is as.vit9696.SMCProcessor
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8004720000 and its name is com.apple.nke.applicationfirewall
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8004B75000 and its name is com.apple.security.AppleImage4
+VirtualSMC    kstore: @ key [BLRW] not found for info
+VirtualSMC    kstore: @ key [B0QD] not found for info
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8004DC6000 and its name is com.apple.AppleSystemPolicy
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF80047CE000 and its name is com.apple.driver.AppleAPIC
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8004D4A000 and its name is com.apple.driver.AppleSMBIOS
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF80047B6000 and its name is com.apple.driver.AppleACPIEC
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF80085CD000 and its name is as.acidanthera.voodoo.driver.PS2Controller
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8004B47000 and its name is com.apple.driver.AppleHPET
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8004D19000 and its name is com.apple.driver.AppleRTC
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF80047B1000 and its name is com.apple.driver.AppleACPIButtons
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8008621000 and its name is org.coolstar.VoodooGPIO
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8004AFB000 and its name is com.apple.driver.AppleEFIRuntime
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8004AFE000 and its name is com.apple.driver.AppleEFINVRAM
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF80086B7000 and its name is com.zxystd.itlwm
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8006612000 and its name is com.apple.driver.usb.AppleUSBXHCI
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8006669000 and its name is com.apple.driver.usb.AppleUSBXHCIPCI
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8009401000 and its name is com.dhinakg.USBToolBox.kext
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8008648000 and its name is com.alexandred.VoodooI2C
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8005EA0000 and its name is com.apple.iokit.IONVMeFamily
+VirtualSMC    kstore: @ key [B0CH] not found for info
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF80085E6000 and its name is as.acidanthera.voodoo.driver.PS2Keyboard
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8008683000 and its name is com.alexandred.VoodooI2CHID
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8004F24000 and its name is com.apple.driver.AppleXsanScheme
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF800679A000 and its name is com.apple.filesystems.apfs
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF80085FD000 and its name is me.kishorprins.VoodooInput
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8005D9F000 and its name is com.apple.driver.IOBluetoothHIDDriver
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8004E84000 and its name is com.apple.driver.AppleHSBluetoothDriver
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8004B8B000 and its name is com.apple.driver.AppleInputDeviceSupport
+VirtualSMC    kstore: @ key [B0SR] not found for info
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8004CDD000 and its name is com.apple.driver.AppleMultitouchDriver
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8004E8D000 and its name is com.apple.driver.AppleTopCaseHIDEventDriver
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF80047D1000 and its name is com.apple.driver.AppleActuatorDriver
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8006707000 and its name is com.apple.private.KextAudit
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF80063D5000 and its name is com.apple.iokit.IOUSBFamily
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8006579000 and its name is com.apple.driver.usb.AppleUSBHostPacketFilter
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8004D78000 and its name is com.apple.driver.AppleSmartBatteryManager
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8004B23000 and its name is com.apple.AppleFSCompression.AppleFSCompressionTypeDataless
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8004B26000 and its name is com.apple.AppleFSCompression.AppleFSCompressionTypeZlib
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8004F57000 and its name is com.apple.BootCache
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8005106000 and its name is com.apple.filesystems.hfs.encodings.kext
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF800509B000 and its name is com.apple.filesystems.hfs.kext
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8006159000 and its name is com.apple.driver.mDNSOffloadUserClient
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF800622A000 and its name is com.apple.iokit.IOSkywalkFamily
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8006289000 and its name is com.apple.iokit.IOSurface
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8004A09000 and its name is com.apple.driver.AppleBSDKextStarter
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF80069DC000 and its name is com.apple.filesystems.tmpfs
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8004B32000 and its name is com.apple.driver.AppleFileSystemDriver
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8006572000 and its name is com.apple.driver.usb.AppleUSBHostCompositeDevice
+Lilu   patcher: @ (DBG) invoked at kext loading/unloading
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8004EE6000 and its name is com.apple.driver.usb.networking
+Lilu   patcher: @ (DBG) invoked at kext loading/unloading
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8004E9A000 and its name is com.apple.driver.usb.cdc
+VirtualSMC    kstore: @ key [B0IF] not found for info
+VirtualSMC    kstore: @ key [BI03] not found for info
+VirtualSMC    kstore: @ key [BI04] not found for info
+Lilu   patcher: @ (DBG) invoked at kext loading/unloading
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8007546000 and its name is com.zxystd.IntelBluetoothFirmware
+Lilu   patcher: @ (DBG) invoked at kext loading/unloading
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8005D70000 and its name is com.apple.iokit.IOBluetoothHostControllerTransport
+Lilu   patcher: @ (DBG) invoked at kext loading/unloading
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8005D7B000 and its name is com.apple.iokit.IOBluetoothHostControllerUSBTransport
+Lilu   patcher: @ (DBG) invoked at kext loading/unloading
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF8005D5E000 and its name is com.apple.iokit.BroadcomBluetoothHostControllerUSBTransport
+VirtualSMC    kstore: @ key [B0IS] not found for info
+VirtualSMC    kstore: @ key [BQCC] not found for info
+VirtualSMC    kstore: @ key [B0QS] not found for info
+VirtualSMC    kstore: @ key [BAST] not found for info
+VirtualSMC    kstore: @ key [B0MS] not found for info
+VirtualSMC    kstore: @ key [B0FI] not found for info
+VirtualSMC    kstore: @ key [BFC1] not found for info
+VirtualSMC    kstore: @ key [BFC2] not found for info
+VirtualSMC    kstore: @ key [BFWC] not found for info
+VirtualSMC    kstore: @ key [BQX1] not found for info
+VirtualSMC    kstore: @ key [BMW1] not found for info
+VirtualSMC    kstore: @ key [BC1A] not found for info
+VirtualSMC    kstore: @ key [BQD1] not found for info
+Lilu   patcher: @ (DBG) invoked at kext loading/unloading
+Lilu   patcher: @ (DBG) last kext is 0xFFFFFF80061FE000 and its name is com.apple.iokit.SCSITaskUserClient
+VirtualSMC    kstore: @ key [BDD1] not found for info
+VirtualSMC    kstore: @ key [B0R1] not found for info
+VirtualSMC    kstore: @ key [BL0A] not found for info
+VirtualSMC    kstore: @ key [BL0B] not found for info
+VirtualSMC    kstore: @ key [BLCC] not found for info
+VirtualSMC    kstore: @ key [BLCF] not found for info
+VirtualSMC    kstore: @ key [BLCH] not found for info
+VirtualSMC    kstore: @ key [BLCL] not found for info
+VirtualSMC    kstore: @ key [BLCR] not found for info
+VirtualSMC    kstore: @ key [BLDM] not found for info
+VirtualSMC    kstore: @ key [BLDX] not found for info
+VirtualSMC    kstore: @ key [BLFM] not found for info
+VirtualSMC    kstore: @ key [BLFX] not found for info
+VirtualSMC    kstore: @ key [BLIC] not found for info
+VirtualSMC    kstore: @ key [BLID] not found for info
+VirtualSMC    kstore: @ key [BLPM] not found for info
+VirtualSMC    kstore: @ key [BLPX] not found for info
+VirtualSMC    kstore: @ key [BLQC] not found for info
+VirtualSMC    kstore: @ key [BLQD] not found for info
+VirtualSMC    kstore: @ key [BLQM] not found for info
+VirtualSMC    kstore: @ key [BLQX] not found for info
+VirtualSMC    kstore: @ key [BLRM] not found for info
+VirtualSMC    kstore: @ key [BLRX] not found for info
+VirtualSMC    kstore: @ key [BLTA] not found for info
+VirtualSMC    kstore: @ key [BLTM] not found for info
+VirtualSMC    kstore: @ key [BLTO] not found for info
+VirtualSMC    kstore: @ key [BLTS] not found for info
+VirtualSMC    kstore: @ key [BLTX] not found for info
+VirtualSMC    kstore: @ key [BLCR] not found for info
+VirtualSMC    kstore: @ key [BLNM] not found for info
+VirtualSMC    kstore: @ key [BLNX] not found for info
+VirtualSMC    kstore: @ key [BLRO] not found for info
+VirtualSMC    kstore: @ key [BLRN] not found for info
+VirtualSMC    kstore: @ key [BLRC] not found for info
+VirtualSMC    kstore: @ key [BLQN] not found for info
+VirtualSMC    kstore: @ key [BLQO] not found for info
+VirtualSMC    kstore: @ key [BLTP] not found for info
+VirtualSMC    kstore: @ key [BLSC] not found for info
+VirtualSMC    kstore: @ key [BVVL] not found for info
+VirtualSMC    kstore: @ key [BNCR] not found for info
+VirtualSMC    kstore: @ key [CHNC] not found for info
+VirtualSMC    kstore: @ key [CHSL] not found for info
+VirtualSMC    kstore: @ key [CH0D] not found for info
+VirtualSMC    kstore: @ key [SBOF] not found for info
+VirtualSMC    kstore: @ key [SBOP] not found for info
+VirtualSMC    kstore: @ key [SBOR] not found for info
+VirtualSMC    kstore: @ key [B0LP] not found for info
+VirtualSMC    kstore: @ key [OBOF] not found for info
+VirtualSMC    kstore: @ key [OBOO] not found for info
+VirtualSMC    kstore: @ key [OBOR] not found for info
+VirtualSMC    kstore: @ key [OBOQ] not found for info
+VirtualSMC    kstore: @ key [OBTO] not found for info
+VirtualSMC    kstore: @ key [WASM] not found for info
+VirtualSMC    kstore: @ key [AC-N] not found for info
+VirtualSMC    kstore: @ key [D0VR] not found for info
+VirtualSMC    kstore: @ key [AY-N] not found for info
+VirtualSMC    kstore: @ key [AP-N] not found for info
+NVMeFix     nvmef: @ (DBG) matchingNotificationHandler for IOMediaBSDClient
+NVMeFix     nvmef: @ (DBG) matchingNotificationHandler for IOMediaBSDClient
+NVMeFix     nvmef: @ (DBG) handleControllers for 1 controllers
+NVMeFix     nvmef: @ (DBG) matchingNotificationHandler for IOMediaBSDClient
+NVMeFix     nvmef: @ (DBG) handleControllers for 1 controllers
+NVMeFix     nvmef: @ (DBG) handleControllers for 1 controllers
+NVMeFix     nvmef: @ (DBG) matchingNotificationHandler for IOMediaBSDClient
+NVMeFix     nvmef: @ (DBG) matchingNotificationHandler for IOMediaBSDClient
+NVMeFix     nvmef: @ (DBG) handleControllers for 1 controllers
+NVMeFix     nvmef: @ (DBG) matchingNotificationHandler for IOMediaBSDClient
+NVMeFix     nvmef: @ (DBG) handleControllers for 1 controllers
+NVMeFix     nvmef: @ (DBG) handleControllers for 1 controllers
+NVMeFix     nvmef: @ (DBG) matchingNotificationHandler for AppleAPFSMediaBSDClient
+NVMeFix     nvmef: @ (DBG) matchingNotificationHandler for AppleAPFSVolumeBSDClient
+NVMeFix     nvmef: @ (DBG) handleControllers for 1 controllers
+NVMeFix     nvmef: @ (DBG) matchingNotificationHandler for AppleAPFSVolumeBSDClient
+NVMeFix     nvmef: @ (DBG) handleControllers for 1 controllers
+NVMeFix     nvmef: @ (DBG) matchingNotificationHandler for AppleAPFSVolumeBSDClient
+NVMeFix     nvmef: @ (DBG) handleControllers for 1 controllers
+NVMeFix     nvmef: @ (DBG) matchingNotificationHandler for AppleAPFSVolumeBSDClient
+NVMeFix     nvmef: @ (DBG) handleControllers for 1 controllers
+NVMeFix     nvmef: @ (DBG) matchingNotificationHandler for AppleAPFSVolumeBSDClient
+NVMeFix     nvmef: @ (DBG) handleControllers for 1 controllers
+NVMeFix     nvmef: @ (DBG) matchingNotificationHandler for AppleAPFSVolumeBSDClient
+NVMeFix     nvmef: @ (DBG) handleControllers for 1 controllers
+NVMeFix     nvmef: @ (DBG) handleControllers for 1 controllers
+NVMeFix     nvmef: @ (DBG) matchingNotificationHandler for IOMediaBSDClient
+NVMeFix     nvmef: @ (DBG) handleControllers for 1 controllers
