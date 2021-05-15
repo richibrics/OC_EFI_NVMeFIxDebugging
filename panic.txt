@@ -1,0 +1,52 @@
+panic(cpu 6 caller 0xffffff8014ac2838): nvme: "Fatal error occurred. CSTS=0x1 US[1]=0x0 US[0]=0x379 VID=0x144d DID=0xa809
+. FW Revision=3L1QFXV7\n"@/System/Volumes/Data/SWE/macOS/BuildRoots/2288acc43c/Library/Caches/com.apple.xbs/Sources/IONVMeFamily/IONVMeFamily-557.100.13/Common/IONVMeController.cpp:5499
+Backtrace (CPU 6), Frame : Return Address
+0xffffffb08181b960 : 0xffffff801228e02d mach_kernel : _handle_debugger_trap + 0x3fd
+0xffffffb08181b9b0 : 0xffffff80123d48e3 mach_kernel : _kdp_i386_trap + 0x143
+0xffffffb08181b9f0 : 0xffffff80123c4eda mach_kernel : _kernel_trap + 0x55a
+0xffffffb08181ba40 : 0xffffff8012232a2f mach_kernel : _return_from_trap + 0xff
+0xffffffb08181ba60 : 0xffffff801228d84d mach_kernel : _DebuggerTrapWithState + 0xad
+0xffffffb08181bb80 : 0xffffff801228db43 mach_kernel : _panic_trap_to_debugger + 0x273
+0xffffffb08181bbf0 : 0xffffff8012a9d68a mach_kernel : _panic + 0x54
+0xffffffb08181bc60 : 0xffffff8014ac2838 com.apple.iokit.IONVMeFamily : __ZN16IONVMeController14CommandTimeoutEP16AppleNVMeRequest.cold.1
+0xffffffb08181bc80 : 0xffffff8014aa7433 com.apple.iokit.IONVMeFamily : __ZN16IONVMeController13FatalHandlingEv + 0x1af
+0xffffffb08181bde0 : 0xffffff80129f54f5 mach_kernel : __ZN18IOTimerEventSource15timeoutSignaledEPvS0_ + 0xa5
+0xffffffb08181be50 : 0xffffff80129f53f6 mach_kernel : __ZN18IOTimerEventSource17timeoutAndReleaseEPvS0_ + 0xc6
+0xffffffb08181be80 : 0xffffff80122d44b5 mach_kernel : _thread_call_delayed_timer + 0x4a5
+0xffffffb08181bef0 : 0xffffff80122d5424 mach_kernel : _thread_call_delayed_timer + 0x1414
+0xffffffb08181bfa0 : 0xffffff801223213e mach_kernel : _call_continuation + 0x2e
+      Kernel Extensions in backtrace:
+         com.apple.iokit.IONVMeFamily(2.1)[2A44DC48-B629-386C-985E-3BE03CCA48F2]@0xffffff8014aa0000->0xffffff8014ac9fff
+            dependency: com.apple.driver.AppleEFINVRAM(2.1)[C6EE02AA-79D2-3EF8-83A6-9E52549E16D9]@0xffffff80136fe000->0xffffff8013707fff
+            dependency: com.apple.driver.AppleMobileFileIntegrity(1.0.5)[2D13AEBE-3C77-3EE0-BC06-BDED7FE19FDE]@0xffffff80138b8000->0xffffff80138cdfff
+            dependency: com.apple.iokit.IOPCIFamily(2.9)[29933CED-5D05-36A4-BFA1-6F4B4F349283]@0xffffff8014d5f000->0xffffff8014d87fff
+            dependency: com.apple.iokit.IOReportFamily(47)[3F7604AB-EA65-3904-A1F4-AFEB25D288A7]@0xffffff8014d96000->0xffffff8014d98fff
+            dependency: com.apple.iokit.IOStorageFamily(2.1)[58EA4506-4E6B-3AC3-A70D-ED35EE2C381D]@0xffffff8014e62000->0xffffff8014e73fff
+
+Process name corresponding to current thread: kernel_task
+Boot args: -v -vi2c-force-polling keepsyms=1 debug=0x100 alcid=61 -liludbgall liludump=60 chunklist-security-epoch=0 -chunklist-no-rev2-dev chunklist-security-epoch=0 -chunklist-no-rev2-dev
+
+Mac OS version:
+20E232
+
+Kernel version:
+Darwin Kernel Version 20.4.0: Fri Mar  5 01:14:14 PST 2021; root:xnu-7195.101.1~3/RELEASE_X86_64
+Kernel UUID: BB2FFEBA-7D53-301F-A238-9867CA51276F
+KernelCache slide: 0x0000000012000000
+KernelCache base:  0xffffff8012200000
+Kernel slide:      0x0000000012010000
+Kernel text base:  0xffffff8012210000
+__HIB  text base: 0xffffff8012100000
+System model name: MacBookPro16,3 (Mac-E7203C0F68AA0004)
+System shutdown begun: NO
+Panic diags file available: NO (0xe00002bc)
+Hibernation exit count: 0
+
+System uptime in nanoseconds: 322196603273
+Last Sleep:           absolute           base_tsc          base_nano
+  Uptime  : 0x0000004b046a04e0
+  Sleep   : 0x0000000000000000 0x0000000000000000 0x0000000000000000
+  Wake    : 0x0000000000000000 0x0000001f8a9049f2 0x0000000000000000
+
+
+
